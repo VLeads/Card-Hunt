@@ -1,0 +1,45 @@
+.cardContainer {
+    cursor: pointer;
+    border-radius: 2rem;
+    padding: 1rem;
+    position: relative;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.cardImg {
+    width: 100%;
+    object-fit: contain;
+    aspect-ratio: 1/1;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.cardContainer .originalImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+    border-radius: 2rem;
+}
+
+.cardFlip .originalImg {
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+
+.cardCover {
+    filter: grayscale(20%);
+    border-radius: 2rem;
+}
+
+.cardContainer .cardCover {
+    transition: all ease-in 0.2s;
+    transition: 0.2s;
+}
+
+.cardFlip .cardCover {
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+}
