@@ -1,0 +1,17 @@
+.quiz {
+    padding: 2rem
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 620px) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+}

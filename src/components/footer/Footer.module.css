@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.item {
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
